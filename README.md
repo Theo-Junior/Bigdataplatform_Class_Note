@@ -1,7 +1,7 @@
 # Bigdataplatform_Class_Note
 강의를 수강하며 작성하는 코드, 강의록을 메모하는 공간
+<hr>   
 
-<hr/>
 작성 : THEO KIM   
 교육 과정 : 빅데이터 플랫폼 개발자 양성교육    
 강의 : 이종국 교수님    
