@@ -60,5 +60,10 @@ public class Vehicle {
 	}
 	
 	// 메소드 정의 / 이후 자식 클래스에서 구현 
-	public void displayInfo(String modelName, int maxSpeed, int numberLimit, int replacement) {}
+	public void displayInfo() {
+		System.out.println("------------------------------------");
+		System.out.println("모델명 : " + modelName);
+		System.out.println("최고속도 : " + maxSpeed);
+		System.out.println("최대정원 : " + numberLimit);
+	}
 }

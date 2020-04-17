@@ -27,7 +27,7 @@ public class VehicleManager {
 		System.out.println(title);
 		
 		for (int inx = 0 ; inx < vehicleList.length ; inx++) {
-			vehicleList[inx].displayInfo(vehicleList[inx].getModelName(), vehicleList[inx].getMaxSpeed(), vehicleList[inx].getNumberLimit(), vehicleList[inx].getNumOfEngine());
+			vehicleList[inx].displayInfo();
 			vehicleList[inx].setAvailable(true);
 		}		
 		System.out.println();

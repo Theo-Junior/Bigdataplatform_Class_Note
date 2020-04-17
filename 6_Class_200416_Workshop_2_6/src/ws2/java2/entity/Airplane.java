@@ -2,17 +2,25 @@ package ws2.java2.entity;
 
 public class Airplane extends Vehicle{
 	
+	private int numOfEngine;
+		
+	
 	// Constructor with 4 variable 
 	public Airplane(String modelName, int maxSpeed, int numberlimit, int special) {
 		super(modelName, maxSpeed, numberlimit, special);
 	}
 	
+	public void setnumOfEngine(int numOfEngine) {
+		this.numOfEngine = numOfEngine;
+	}
+	public int getnumOfEngine() {
+		return numOfEngine;
+	}
+	
 	// 메소드 오버라이딩 구현. 
-	public void displayInfo(String modelName, int maxSpeed, int numberLimit, int numOfEngine) {
-		System.out.println("-------------------------------------------");
-		System.out.println(" Model Name : " + modelName);
-		System.out.println(" Max Speed : " + maxSpeed + "km/h");
-		System.out.println(" People : " + numberLimit + " M");
-		System.out.println(" Engine Num : " + numOfEngine + " Num");
+	public void displayInfo() {
+		super.displayInfo();
+		System.out.println("엔진 갯수  : " + numOfEngine);
+
 	}
 }
