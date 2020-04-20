@@ -24,19 +24,25 @@ public class VehicleManager{
 	}
 	
 	
-	//Sort 메소드
-	public void sortByModelName() {
-		int iTemp = 0;
-		
-		for(int i = 0; i<vehicleList.length; i++) {
-			for(int j = i+1; j<vehicleList.length; j++) {
-				if(vehicleList[i].getMaxSpeed() > vehicleList[j].getMaxSpeed()) {
-					iTemp = vehicleList[j].getMaxSpeed();
-					vehicleList[j].setMaxSpeed(vehicleList[i].getMaxSpeed());
-					vehicleList[i].setMaxSpeed(iTemp);										
-				}
-			}
-		}
+	//Sort 메소드 // Ascending 
+	// double For
+//	public void sortByModelName() {
+//		int iTemp = 0;
+//		
+//		for(int i = 0; i<vehicleList.length; i++) {
+//			for(int j = i+1; j<vehicleList.length; j++) {
+//				if(vehicleList[i].getMaxSpeed() > vehicleList[j].getMaxSpeed()) {
+//					iTemp = vehicleList[j].getMaxSpeed();
+//					vehicleList[j].setMaxSpeed(vehicleList[i].getMaxSpeed());
+//					vehicleList[i].setMaxSpeed(iTemp);										
+//				}
+//			}
+//		}
+//	}
+	
+	// Vehicle Class내의 CompareTo(implement)로 구현한 메소드.
+	public void sortByModelName2() {
+		Arrays.sort(vehicleList);
 	}
 	
 	
@@ -49,6 +55,6 @@ public class VehicleManager{
 			vehicleList[inx].setAvailable(true);
 		}		
 		System.out.println();
-	}
+	}	
 }
 

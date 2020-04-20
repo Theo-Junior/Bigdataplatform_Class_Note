@@ -1,6 +1,6 @@
 package ws2.java2.entity;
 
-public class Vehicle {
+public class Vehicle implements Comparable{
 	
 	// Airplane, Car, Ship에서의 공통 멤버 변수 선언
 	private String modelName;
@@ -65,5 +65,17 @@ public class Vehicle {
 		System.out.println("모델명 : " + modelName);
 		System.out.println("최고속도 : " + maxSpeed);
 		System.out.println("최대정원 : " + numberLimit);
+	}
+
+	@Override
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		Vehicle obj = (Vehicle)o;
+		if(this.maxSpeed > obj.maxSpeed)
+			return 1;
+		else if(this.maxSpeed < obj.maxSpeed)
+			return -1;
+		else
+			return 0;
 	}
 }
