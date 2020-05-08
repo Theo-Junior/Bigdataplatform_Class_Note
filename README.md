@@ -7,17 +7,18 @@ Java Class는 총 10일.
 
 <hr>   
 
-[학습]  
-Class 01 : 변수와 자료형 / 상수와 형 변환 / 연산자 / 콘솔 입력과 출력  
-Class 02 : 조건문 / 메소드와 스코프 / 클래스와 인스턴스  
-Class 03 : 패키지와 클래스 패스 / 정보 은닉과 캡슐화  
-Class 04 : 클래스 변수와 클래스 메소드  
-Class 05 : 메소드 오버로딩과 String 클래스  
-Class 06 : 배열 / 클래스의 상속(기본, 오버라이딩, 상속의 목적)  
-Class 07 : 예외처리 / Object, final, @Override / 인터페이스와 추상 클래스  
-Class 08 : 자바의 기본 클래스(Wrapper, Math etc., Arrays) / 제네릭  
-Class 09 : 컬렉션 프레임워크(List, Set, Queue, Map) / 열거형, 가변인자 그리고 어노테이션 / 네스티드와 이너 클래스  
-Class 10 : 람다 표현식 / 쓰레드 / 마무리 평가  
+[학습]
+- **Java Class의 학습목표 : 프로그래밍 언어 활용 : 80 H**
+- Class 01 : 변수와 자료형 / 상수와 형 변환 / 연산자 / 콘솔 입력과 출력  
+- Class 02 : 조건문 / 메소드와 스코프 / 클래스와 인스턴스  
+- Class 03 : 패키지와 클래스 패스 / 정보 은닉과 캡슐화  
+- Class 04 : 클래스 변수와 클래스 메소드  
+- Class 05 : 메소드 오버로딩과 String 클래스  
+- Class 06 : 배열 / 클래스의 상속(기본, 오버라이딩, 상속의 목적)  
+- Class 07 : 예외처리 / Object, final, @Override / 인터페이스와 추상 클래스  
+- Class 08 : 자바의 기본 클래스(Wrapper, Math etc., Arrays) / 제네릭  
+- Class 09 : 컬렉션 프레임워크(List, Set, Queue, Map) / 열거형, 가변인자 그리고 어노테이션 / 네스티드와 이너 클래스  
+- Class 10 : 람다 표현식 / 쓰레드 / 마무리 평가  
 
 <hr>
 
